@@ -1,0 +1,27 @@
+@import "_header";
+
+
+/* tablets/portrait devices (1200px and down) */
+@media only screen and (max-width: 1200px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+    }
+}
+/* small tablets devices (992px and down) */
+@media only screen and (max-width: 992px) {
+    
+}
+/* Extra small devices (phones, 767px and down) */
+@media only screen and (max-width: 767px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
