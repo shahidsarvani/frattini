@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frattini | A Premium Restaurant, Cakes and Coffee Shop Template</title>
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="/assets/css/fontawesome.min.css" />
-    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="./assets/css/slick.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
 </head>
 
 <body>
@@ -57,8 +58,39 @@
 
     </header>
 
+    <section>
+        <div class="single-item owl-theme">
+            <div class="item">
+                <div class="item_inner">
+                    <img class=" w-100" src="./assets/images/slide-01.jpeg" alt="slide 01" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="item_inner">
+                    <img class=" w-100" src="./assets/images/slide-02.jpeg" alt="slide 02" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="item_inner">
+                    <img class=" w-100" src="./assets/images/slider.jpeg" alt="slide 03" />
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/Jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script>
+        $('.single-item').slick({
+            dots: true,
+            infinite: false,
+            arrows: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            speed: 500,
+        });
+    </script>
 </body>
 
 

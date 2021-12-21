@@ -1,4 +1,12 @@
 /* Header SCSS */
+header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 9;
+}
+
 .logo {
   padding: 9px 0;
 }
@@ -91,6 +99,59 @@
 }
 
 /* Header SCSS End */
+/* Slider SCSS */
+.slick-dots li button {
+  visibility: hidden;
+}
+
+.slick-dots {
+  list-style: none;
+  position: absolute;
+  bottom: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slick-dots li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slick-dots li::before {
+  position: absolute;
+  content: "";
+  cursor: pointer;
+  width: 11px;
+  height: 11px;
+  display: block;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 20px;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.slick-dots li:hover::before {
+  background: #d81c0a;
+}
+
+.slick-dots .slick-active::before {
+  background: #d81c0a;
+}
+
+/* Slider SCSS END */
 /* tablets/portrait devices (1200px and down) */
 @media only screen and (max-width: 1200px) {
   .container {

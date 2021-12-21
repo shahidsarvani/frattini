@@ -3,6 +3,14 @@ $navhovercolor: #d81c0a;
 $bordernavlink: #fdc51d;
 $iconburgerColor: #fdc51d;
 
+
+header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 9;
+}
 .logo {
     padding: 9px 0;
 }
