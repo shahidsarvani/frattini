@@ -42,6 +42,11 @@
   outline: none;
 }
 
+.navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 /* tablets/portrait devices (1200px and down) */
 @media only screen and (max-width: 1200px) {
   .navbar-expand-lg .navbar-nav .nav-link {

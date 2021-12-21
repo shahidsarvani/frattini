@@ -38,6 +38,9 @@ $iconburgerColor: #fdc51d;
     border-bottom: 3px solid $bordernavlink;
     outline: none;
 }
+.navbar-toggler:focus {
+    box-shadow: none;
+}
 
 /* tablets/portrait devices (1200px and down) */
 @media only screen and (max-width: 1200px) {
