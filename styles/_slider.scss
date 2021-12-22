@@ -36,4 +36,36 @@
 .slick-dots .slick-active::before {
     background: #d81c0a;
 }
+.item_content_outter {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin: 130px auto;
+    width: 100%;
+}
+
+.item_content_inner h1 {
+    font-size: 90px;
+    background-color: rgba(0,0,0,0.80);
+    padding: 5px 20px 15px 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    display: inline-flex;
+    color: #fff;
+    margin: 0 auto;
+}
+.item_content_inner h2 {
+    font-size: 24px;
+    background-color: rgba(0,0,0,0.80);
+    padding: 5px 20px;
+    font-weight: 100;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+    display: inline-flex;
+    clear: both;
+    overflow: hidden;
+    color: #fff;
+    margin: 30px auto;
+}
 /* Slider SCSS END */
