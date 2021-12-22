@@ -14,6 +14,9 @@ header {
 .logo {
     padding: 9px 0;
 }
+.logo a img {
+    width: 140px;
+}
 .navbar-toggler i {
     color: $iconburgerColor;
     font-size: 30px;
@@ -66,7 +69,7 @@ header {
         overflow-y: scroll;
     }
     .logo a img {
-        width: 100%;
+        width: 120px;
     }
 }
 /* small tablets devices (992px and down) */
@@ -89,7 +92,7 @@ header {
         overflow-y: scroll;
     }
     .logo a img {
-        width: 60%;
+        width: 100px;
     }
 }
 
