@@ -1,0 +1,52 @@
+/* Featured SCSS */
+.featured_section {
+    margin: 60px 0px;
+}
+.inner_image_featured .price_selector {
+    background: #d81c0a;
+    padding: 5px 10px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 1;
+    color: #fff;
+    font-weight: bold;
+}
+.inner_featured .featured_subtitle {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.inner_image_featured img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(1.12);
+    transform: scale(1.12);
+}
+.inner_image_featured:hover img {
+
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+/* tablets/portrait devices (1200px and down) */
+@media only screen and (max-width: 1200px) {
+   
+}
+/* small tablets devices (992px and down) */
+@media only screen and (max-width: 992px) {
+    
+}
+/* Extra small devices (phones, 767px and down) */
+@media only screen and (max-width: 767px) {
+    
+}
+
+
+/* Featured SCSS End */
