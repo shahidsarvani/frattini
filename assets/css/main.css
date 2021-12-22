@@ -189,6 +189,34 @@ header {
   margin: 30px auto;
 }
 
+@media only screen and (max-width: 992px) {
+  .item_content_inner h1 {
+    font-size: 60px;
+    padding: 5px 20px 15px 20px;
+  }
+  .item_content_inner h2 {
+    font-size: 14px;
+    padding: 5px 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .crousal_section {
+    margin-top: 70px;
+  }
+  .item_content_outter {
+    margin: 10px auto;
+  }
+  .item_content_inner h1 {
+    font-size: 28px;
+    padding: 5px 20px 5px 20px;
+  }
+  .item_content_inner h2 {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+}
+
 /* Slider SCSS END */
 /* tablets/portrait devices (1200px and down) */
 @media only screen and (max-width: 1200px) {
