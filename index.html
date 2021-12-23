@@ -301,8 +301,8 @@
                                     Our <b>IceCream</b>
                                 </a>
                             </h2>
-                            <div id="panelsopenOne" class="accordion-collapse collapse show"
-                                aria-labelledby="panelsOne"  data-bs-parent="#accordionPanelsMenu">
+                            <div id="panelsopenOne" class="accordion-collapse collapse show" aria-labelledby="panelsOne"
+                                data-bs-parent="#accordionPanelsMenu">
                                 <div class="accordion-content p-4 pb-2">
                                     <div class="row">
                                         <div class="col-12 col-md-6">
@@ -339,7 +339,8 @@
                                     Fruit <b>Salads</b>
                                 </a>
                             </h2>
-                            <div id="panelsopentwo" class="accordion-collapse collapse" aria-labelledby="panelstwo"  data-bs-parent="#accordionPanelsMenu">
+                            <div id="panelsopentwo" class="accordion-collapse collapse" aria-labelledby="panelstwo"
+                                data-bs-parent="#accordionPanelsMenu">
                                 <div class="accordion-content p-4 pb-2">
                                     <div class="row">
                                         <div class="col-12 col-md-6">
@@ -376,7 +377,8 @@
                                     Our <b>Cakes</b>
                                 </a>
                             </h2>
-                            <div id="panelsopenthree" class="accordion-collapse collapse" aria-labelledby="panelsthree"  data-bs-parent="#accordionPanelsMenu">
+                            <div id="panelsopenthree" class="accordion-collapse collapse" aria-labelledby="panelsthree"
+                                data-bs-parent="#accordionPanelsMenu">
                                 <div class="accordion-content p-4 pb-2">
                                     <div class="row">
                                         <div class="col-12 col-md-6">
@@ -621,6 +623,104 @@
     </div>
     <!--  Border End  -->
 
+    <!-- Best Menu Section Start -->
+
+    <section class="">
+        <div class="container">
+            <div class="row gy-5">
+                <div class="col-12 text-center">
+                    <h2 class="top_heading_featured">Dishes the best of <b>Frattini</b></h2>
+                </div>
+                <div class="col-12">
+                    <div class="menu-slick">
+                        <div>
+                            <div class="item_inner">
+                                <div class="img_slick_best">
+                                    <a href=""><img class="w-100" src="./assets/images/gallery-01.jpeg"
+                                            alt="gallery" /> <span class="slick_best_price">
+                                                $ 8.50
+                                            </span></a>
+                                    <h4 class="subtitle">Dishes Name</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item_inner">
+                                <div class="img_slick_best">
+                                    <a href=""><img class="w-100" src="./assets/images/gallery-02.jpeg"
+                                            alt="gallery" /> <span class="slick_best_price">
+                                                $ 8.50
+                                            </span></a>
+                                    <h4 class="subtitle">Dishes Name</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item_inner">
+                                <div class="img_slick_best">
+                                    <a href=""><img class="w-100" src="./assets/images/gallery-03.jpeg"
+                                            alt="gallery" /> <span class="slick_best_price">
+                                                $ 8.50
+                                            </span></a>
+                                    <h4 class="subtitle">Dishes Name</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item_inner">
+                                <div class="img_slick_best">
+                                    <a href=""><img class="w-100" src="./assets/images/gallery-04.jpeg"
+                                            alt="gallery" /> <span class="slick_best_price">
+                                                $ 8.50
+                                            </span></a>
+                                    <h4 class="subtitle">Dishes Name</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item_inner">
+                                <div class="img_slick_best">
+                                    <a href=""><img class="w-100" src="./assets/images/gallery-05.jpeg"
+                                            alt="gallery" />
+                                            <span class="slick_best_price">
+                                                $ 8.50
+                                            </span></a>
+                                    <h4 class="subtitle">Dishes Name</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="item_inner">
+                                <div class="img_slick_best">
+                                    <a href="">
+                                        <img class="w-100" src="./assets/images/gallery-06.jpeg"
+                                            alt="gallery" />
+                                        <span class="slick_best_price">
+                                            $ 8.50
+                                        </span>
+                                        </a>
+                                    <h4 class="subtitle">Dishes Name</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Best Menu Section Start -->
+
+    <!--  Border Start  -->
+    <div class="border_outter py-5">
+        <div class="container">
+            <div class="border-b position-relative">
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!--  Border End  -->
+
 
 
 
@@ -630,6 +730,40 @@
     <script src="./assets/js/fontawesome.js"></script>
     <script src="./assets/js/brands.js"></script>
     <script>
+        $('.menu-slick').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            responsive: [{
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
         $('.single-item').slick({
             dots: true,
             infinite: false,

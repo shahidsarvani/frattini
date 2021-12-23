@@ -477,6 +477,72 @@ header {
 /* small tablets devices (992px and down) */
 /* Extra small devices (phones, 767px and down) */
 /* Team SCSS End */
+/* Best Menu SCSS */
+.menu-slick .item_inner {
+  padding: 20px;
+}
+
+.img_slick_best .subtitle {
+  margin: 15px 0;
+}
+
+.menu-slick .slick-dots {
+  display: none !important;
+}
+
+.menu-slick .slick-arrow {
+  visibility: hidden;
+}
+
+.menu-slick .slick-prev.slick-arrow::before {
+  position: absolute;
+  content: "";
+  width: 28px;
+  height: 28px;
+  visibility: visible;
+  left: 0;
+  top: -90px;
+  background: url(../images/controls.png) no-repeat left top;
+}
+
+.menu-slick .slick-next.slick-arrow::before {
+  position: absolute;
+  content: "";
+  top: -90px;
+  outline: 0;
+  width: 28px;
+  height: 28px;
+  right: 0;
+  background: url(../images/controls.png) no-repeat right top;
+  visibility: visible;
+}
+
+.img_slick_best a {
+  position: relative;
+  display: block;
+}
+
+.slick_best_price {
+  background: #d81c0a;
+  padding: 5px 10px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: 1;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* tablets/portrait devices (1200px and down) */
+/* small tablets devices (992px and down) */
+/* Extra small devices (phones, 767px and down) */
+@media only screen and (max-width: 767px) {
+  .menu-slick .slick-prev.slick-arrow::before, .menu-slick .slick-next.slick-arrow::before {
+    top: -83px;
+  }
+}
+
+/* Best Menu  SCSS End */
 p {
   margin: 0 0 30px 0;
   line-height: 1.7em;
