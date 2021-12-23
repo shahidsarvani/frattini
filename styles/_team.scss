@@ -1,0 +1,28 @@
+/* Team SCSS */
+
+.team_img_outter img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(1.12);
+    transform: scale(1.12);
+}
+
+
+/* tablets/portrait devices (1200px and down) */
+@media only screen and (max-width: 1200px) {
+   
+}
+/* small tablets devices (992px and down) */
+@media only screen and (max-width: 992px) {
+    
+}
+/* Extra small devices (phones, 767px and down) */
+@media only screen and (max-width: 767px) {
+    
+}
+
+
+/* Team SCSS End */
