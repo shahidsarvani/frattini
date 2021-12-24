@@ -448,29 +448,33 @@ header {
 }
 
 .social_links a .svg-inline--fa {
-  font-size: 32px;
+  width: 37px;
+  font-size: 37px;
   -webkit-transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s ease-in-out 0s;
+  padding: 10px;
+  color: #fff;
+  border-radius: 50%;
 }
 
 .social_links a:hover .svg-inline--fa {
-  color: #d81c0a;
+  background-color: #d81c0a;
 }
 
 .social_links a .fa-facebook {
-  color: #2f5a9a;
+  background-color: #2f5a9a;
 }
 
 .social_links a .fa-twitter {
-  color: #3abdd1;
+  background-color: #3abdd1;
 }
 
 .social_links a .fa-pinterest {
-  color: #d13a3a;
+  background-color: #d13a3a;
 }
 
 .social_links a .fa-linkedin {
-  color: #0072b2;
+  background-color: #0072b2;
 }
 
 /* tablets/portrait devices (1200px and down) */
@@ -594,6 +598,79 @@ footer h4 {
   margin: 0 0 30px 0;
   padding: 0;
   clear: both;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.address_footer {
+  font-size: 14px;
+}
+
+.working-timming p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 5px;
+  color: #FFF;
+}
+
+.email_input {
+  width: 100%;
+  border: 0;
+  background: #fff;
+  padding: 10px 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000;
+  margin: 0 0 10px 0;
+}
+
+.textarea_input {
+  width: 100%;
+  border: 0 none;
+  padding: 10px 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000;
+  margin: 0 0 9px 0;
+}
+
+.submit_contact {
+  transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -webkit-transition: all .1s ease-in-out;
+  padding: 10px 20px;
+  background: #fdc51d;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+  border: 0;
+}
+
+.submit_contact:hover {
+  transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -webkit-transition: all .1s ease-in-out;
+  background: #fff;
+  color: #fdc51d;
+}
+
+.footer_rights {
+  background-color: #fdc51d;
+}
+
+.rights-outter p a {
+  background: none;
+  color: #fff;
+  padding: 0;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0;
+  text-decoration: none;
   text-transform: uppercase;
 }
 

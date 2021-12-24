@@ -30,24 +30,29 @@
     text-transform: uppercase;
 }
 .social_links a .svg-inline--fa {
-    font-size: 32px;
+    width: 37px;
+    font-size: 37px;
+    -webkit-transition: all 0.5s ease-in-out 0s;
     transition: all 0.5s ease-in-out 0s;
+    padding: 10px;
+    color: #fff;
+    border-radius: 50%;
 }
 .social_links a:hover .svg-inline--fa {
-    color: #d81c0a;
+    background-color: #d81c0a;
 }
 
 .social_links a .fa-facebook {
-    color: #2f5a9a;
+    background-color: #2f5a9a;
 }
 .social_links a .fa-twitter {
-    color: #3abdd1;
+    background-color: #3abdd1;
 }
 .social_links a .fa-pinterest {
-    color: #d13a3a;
+    background-color: #d13a3a;
 }
 .social_links a .fa-linkedin {
-    color: #0072b2;
+    background-color: #0072b2;
 }
 /* tablets/portrait devices (1200px and down) */
 @media only screen and (max-width: 1200px) {
