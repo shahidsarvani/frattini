@@ -703,6 +703,10 @@ p {
   margin-left: -50px;
 }
 
+.nav-link:focus {
+  color: #000;
+}
+
 /* tablets/portrait devices (1200px and down) */
 @media only screen and (max-width: 1200px) {
   .container {
