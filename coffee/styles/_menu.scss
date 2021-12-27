@@ -1,0 +1,74 @@
+/* Menu SCSS */
+@import "_colors"; 
+
+
+.accordion-menu {
+    padding: 40px;
+    line-height: 18px;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.accordion-menu.menu-one {
+    background-image: url("../images/menu-1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.accordion-menu.menu-two {
+    background-image: url("../images/menu-2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.accordion-menu.menu-three {
+    background-image: url("../images/menu-3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.accordion-menu:hover {
+    color: #fff;
+}
+.accordion-content {
+    background: #fffdf8;
+}
+.menu_item_inner .thumb {
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+    width: 90px;
+    height: 90px;
+}
+.content_menu .item_name {
+    background: #fffdf8;
+    font-size: 18px;
+    float: left;
+    margin-right: 20px;
+    padding-right: 4px;
+    position: relative;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.content_menu .item_price {
+    font-size: 14px;
+    font-weight: bold;
+    color: $primaryColor;
+    margin: 0 10px 0 0;
+}
+
+
+
+/* tablets/portrait devices (1200px and down) */
+@media only screen and (max-width: 1200px) {
+   
+}
+/* small tablets devices (992px and down) */
+@media only screen and (max-width: 992px) {
+    
+}
+/* Extra small devices (phones, 767px and down) */
+@media only screen and (max-width: 767px) {
+    
+}
+
+
+/* Menu SCSS End */
