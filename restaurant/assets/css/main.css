@@ -1,6 +1,6 @@
 /* Header SCSS */
 header {
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 0px;
   width: 100%;
@@ -57,6 +57,15 @@ header {
 .navbar-toggler:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+
+@media only screen and (min-width: 1200px) {
+  .sticky .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 25px 15px;
+  }
+  .sticky .navbar .logo img {
+    width: 100px;
+  }
 }
 
 /* tablets/portrait devices (1200px and down) */
@@ -213,7 +222,7 @@ header {
     margin: 10px auto;
   }
   .item_content_inner h1 {
-    font-size: 28px;
+    font-size: 22px;
     padding: 5px 20px 5px 20px;
   }
   .item_content_inner h2 {
@@ -701,6 +710,10 @@ p {
   left: 50%;
   top: -12px;
   margin-left: -50px;
+}
+
+.nav-link:focus {
+  color: #000;
 }
 
 /* tablets/portrait devices (1200px and down) */
