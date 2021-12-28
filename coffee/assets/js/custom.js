@@ -11,13 +11,13 @@ $(document).ready(function () {
         }
     });
 
-    var stop2Top = $('#stop2').offset().top - 200
-    var stop3Top = $('#stop3').offset().top - 200
-    var stop4Top = $('#stop4').offset().top - 200
-    var stop5Top = $('#stop5').offset().top - 200
-    var stop6Top = $('#stop6').offset().top - 200
-    var stop7Top = $('#stop7').offset().top - 200
-    var stop8Top = $('#stop8').offset().top - 200
+    var stop2Top = $('#stop2').offset().top
+    var stop3Top = $('#stop3').offset().top
+    var stop4Top = $('#stop4').offset().top
+    var stop5Top = $('#stop5').offset().top
+    var stop6Top = $('#stop6').offset().top
+    var stop7Top = $('#stop7').offset().top
+    var stop8Top = $('#stop8').offset().top
 
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
