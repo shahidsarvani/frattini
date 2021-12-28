@@ -36,7 +36,7 @@ $(document).ready(function () {
         if (scroll > stop8Top) {
             $('.nav-item:nth-child(8)').addClass('active')
         } else if (scroll > stop7Top) {
-            $('.nav-item:nth-child(7)').addClass('active')
+            $('.nav-item:nth-child(8)').addClass('active')
         } else if (scroll > stop6Top) {
             $('.nav-item:nth-child(6)').addClass('active')
         } else if (scroll > stop5Top) {
