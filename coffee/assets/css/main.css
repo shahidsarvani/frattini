@@ -47,7 +47,7 @@ header {
   border-bottom: 3px solid #da9f5b;
 }
 
-.navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+.navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus, .navbar-nav > .selected > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-nav > .selected > a:focus {
   color: #fff;
   background-color: #33211d;
   border-bottom: 3px solid #da9f5b;
