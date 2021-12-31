@@ -62,6 +62,12 @@
     .menu-slick .slick-prev.slick-arrow::before, .menu-slick .slick-next.slick-arrow::before {
         top: -83px;
     }
+    .menu-slick .slick-next.slick-arrow::before{
+        right: -9px;
+    }
+    .menu-slick .slick-prev.slick-arrow::before{
+        left: -9px;
+    }
 }
 
 
